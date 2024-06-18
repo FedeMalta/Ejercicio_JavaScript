@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 id="mensajeBienvenida"></h1>
+    <p id="datosPersonales"></p>
+
+    <h2>Modifique sus datos:</h2>
+    <form>
+        <input id="formID" type="text" required placeholder="Usuario">
+        <input id="formAltura" type="number" required placeholder="Altura en cm">
+        <input id="formEdad" type="number" required placeholder="Edad">
+        <span> Fecha de nacimiento: 
+            <input id="formNacimiento" type="date"  value="2001-08-22" />
+        </span>
+        <button type='button' id="formBoton">Enviar</button>
+    </form>
+    <p id="mensajeError"></p>
+    <script type="text/javascript" src="js/datosUsuario.js"></script>
+</body>
+</html>
